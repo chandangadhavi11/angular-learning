@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-project';
+
+  onButtonClickListner(name: string){
+    console.log(name);
+  }
+
+  inputOnChangeListner(event: any){
+    console.log(event.target.value);
+  }
+
 }
